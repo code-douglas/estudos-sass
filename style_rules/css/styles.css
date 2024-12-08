@@ -17,4 +17,77 @@ ol > li {
   color: blue;
 }
 
+a {
+  text-decoration: none;
+  color: green;
+  transition: 0.5s;
+  padding: 10px;
+  border: 1px solid green;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+a:hover {
+  background: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.container {
+  background: #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+.container-content {
+  color: red;
+}
+
+.spacing {
+  padding: 200px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid blue;
+  color: #fff;
+  border-radius: 5px;
+  background-color: blue;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: transparent;
+  color: blue;
+}
+.btn-success {
+  background: green;
+  border-color: green;
+}
+.btn-success:hover {
+  color: green;
+}
+.btn-danger {
+  background: red;
+  border-color: red;
+}
+.btn-danger:hover {
+  color: red;
+}
+
+.sub-title, .title {
+  border-bottom: 2px dotted red;
+  padding: 15px;
+  background: yellow;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  color: green;
+}
+
+.sub-title {
+  font-size: 25px;
+  color: blue;
+}
+
 /*# sourceMappingURL=styles.css.map */
